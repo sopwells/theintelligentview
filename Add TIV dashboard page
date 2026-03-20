@@ -344,33 +344,54 @@
 <section class="hero">
   <p class="hero-tag">Tech Infrastructure Valuation (TIV) &nbsp;·&nbsp; Dashboard &nbsp;·&nbsp; 2025</p>
   <p class="hero-blurb">
-    Tech maturity is the fundamental growth metric for companies as AI and other advances drive efficiencies and revenue. The question for investors is what and how well are companies allocating capital for these initiatives. TIV helps answer this, using public financial statements to derive insight into the scalability, sustainability and security of a company's tech strategy.
+    Investors know AI drives value, but they lack the metrics to prove it. TIV bridges the gap, translating financial statements into competitive intelligence.
   </p>
 </section>
 
 <!-- METRIC DEFINITION STRIP -->
 <div style="max-width:1400px;margin:0 auto;padding:0 0;">
-  <div class="metric-strip" style="grid-template-columns: repeat(4, 1fr);">
-    <div class="metric-card">
-      <div class="metric-card-label">Metric 01</div>
-      <div class="metric-card-title">Revenue to Tech Spend</div>
-      <div class="metric-card-desc">Measures how much revenue is generated relative to total tech investment. Higher = greater top-line productivity.</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);">
+
+    <!-- GROWTH ENGINE -->
+    <div style="background:var(--navy-mid);padding:1rem 1.6rem;border-bottom:2px solid var(--accent);">
+      <div style="font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:600;">Growth Engine</div>
+      <div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.2rem;">Revenue</div>
     </div>
-    <div class="metric-card">
-      <div class="metric-card-label">Metric 02</div>
-      <div class="metric-card-title">Tech Efficiency %</div>
-      <div class="metric-card-desc">Assesses how much of a company's earnings are consumed by its tech costs. Lower = more efficient tech estate.</div>
+
+    <!-- MARGIN ENGINE -->
+    <div style="background:var(--navy-mid);padding:1rem 1.6rem;border-bottom:2px solid var(--text-muted);">
+      <div style="font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);font-weight:600;">Margin Engine</div>
+      <div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.2rem;">Operating Profit</div>
     </div>
-    <div class="metric-card">
-      <div class="metric-card-label">Metric 03</div>
-      <div class="metric-card-title">Tech Opex</div>
-      <div class="metric-card-desc">The operational component of total tech spend — reflects the ongoing cost of running and maintaining a company's technology.</div>
+
+    <!-- GROWTH ENGINE METRICS -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);">
+      <div class="metric-card">
+        <div class="metric-card-label">Metric 01</div>
+        <div class="metric-card-title">Revenue to Tech Spend</div>
+        <div class="metric-card-desc">Measures how much revenue is generated relative to total tech investment. Higher = greater top-line productivity.</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card-label">Metric 02</div>
+        <div class="metric-card-title">Tech Capex Intensity</div>
+        <div class="metric-card-desc">The proportion of total tech spend allocated to capital investment. Higher = company likely in active build-out mode.</div>
+      </div>
     </div>
-    <div class="metric-card">
-      <div class="metric-card-label">Metric 04</div>
-      <div class="metric-card-title">Tech Capex Intensity</div>
-      <div class="metric-card-desc">The proportion of total tech spend allocated to capital investment. Higher = company likely in active build-out mode.</div>
+
+    <!-- MARGIN ENGINE METRICS -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);">
+      <div class="metric-card">
+        <div class="metric-card-label">Metric 03</div>
+        <div class="metric-card-title">Tech Efficiency %</div>
+        <div class="metric-card-desc">Assesses how much of a company's earnings are consumed by its tech costs. Lower = more efficient tech estate.</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card-label">Metric 04</div>
+        <div class="metric-card-title">Tech Opex</div>
+        <div class="metric-card-desc">The operational component of total tech spend — reflects the ongoing cost of running and maintaining a company's technology.</div>
+      </div>
     </div>
+
   </div>
 </div>
 
@@ -392,14 +413,19 @@
       <tr>
         <th>Company</th>
         <th class="metric-col">Rev to Tech Spend<br/>2025</th>
+        <th class="change-col">vs LY</th>
         <th class="change-col">vs 2021</th>
         <th class="metric-col">Tech Efficiency %<br/>2025</th>
+        <th class="change-col">vs LY</th>
         <th class="change-col">vs 2021</th>
         <th class="metric-col">Tech Opex<br/>2025</th>
+        <th class="change-col">vs LY</th>
         <th class="change-col">vs 2021</th>
         <th class="metric-col">Tech Capex<br/>2025</th>
+        <th class="change-col">vs LY</th>
         <th class="change-col">vs 2021</th>
         <th class="metric-col">Capex Intensity<br/>2025</th>
+        <th class="change-col">vs LY</th>
         <th class="change-col">vs 2021</th>
         <th>Maturity</th>
       </tr>
@@ -414,14 +440,19 @@
           <span class="company-currency">£m</span>
         </td>
         <td class="td-metric"><span class="metric-val">16.9x</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -1.4%</span></td>
         <td class="td-change"><span class="change-val neg">▼ -17.2%</span></td>
         <td class="td-metric"><span class="metric-val">34.2%</span></td>
+        <td class="td-change"><span class="change-val pos">▼ -1.2pp</span></td>
         <td class="td-change"><span class="change-val pos">▼ -41.1%</span></td>
         <td class="td-metric"><span class="metric-val">£278.5m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +6.6%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +49.8%</span></td>
         <td class="td-metric"><span class="metric-val">£81.0m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +5.2%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +11.9%</span></td>
         <td class="td-metric"><span class="metric-val">22.5%</span></td>
+        <td class="td-change"><span class="change-val neu">▼ -0.3pp</span></td>
         <td class="td-change"><span class="change-val pos">▼ -19.3pp</span></td>
         <td><span class="tier-badge tier-2">Transform</span></td>
       </tr>
@@ -434,15 +465,20 @@
           <span class="company-currency">£m</span>
         </td>
         <td class="td-metric"><span class="metric-val">36.9x</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -3.9%</span></td>
         <td class="td-change"><span class="change-val pos">▲ +3.1%</span></td>
         <td class="td-metric"><span class="metric-val">60.8%</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +27.9pp</span></td>
         <td class="td-change"><span class="change-val neg">▲ +n/m</span></td>
         <td class="td-metric"><span class="metric-val">£225.3m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +5.2%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +59.0%</span></td>
         <td class="td-metric"><span class="metric-val">£154.0m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +22.8%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +35.6%</span></td>
         <td class="td-metric"><span class="metric-val">40.6%</span></td>
-        <td class="td-change"><span class="change-val neg">▲ -3.9pp</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +3.7pp</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -3.9pp</span></td>
         <td><span class="tier-badge tier-2">Transform</span></td>
       </tr>
 
@@ -454,14 +490,19 @@
           <span class="company-currency">$m</span>
         </td>
         <td class="td-metric"><span class="metric-val">37.6x</span></td>
+        <td class="td-change"><span class="change-val pos">▲ +1.9%</span></td>
         <td class="td-change"><span class="change-val neg">▼ -9.4%</span></td>
         <td class="td-metric"><span class="metric-val">17.6%</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +1.3pp</span></td>
         <td class="td-change"><span class="change-val neg">▲ +22.2%</span></td>
         <td class="td-metric"><span class="metric-val">$741.2m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +6.6%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +44.7%</span></td>
         <td class="td-metric"><span class="metric-val">$265.4m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +6.7%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +40.8%</span></td>
         <td class="td-metric"><span class="metric-val">26.4%</span></td>
+        <td class="td-change"><span class="change-val neu">▼ -0.1pp</span></td>
         <td class="td-change"><span class="change-val neu">▼ -0.5pp</span></td>
         <td><span class="tier-badge tier-2">Transform</span></td>
       </tr>
@@ -474,14 +515,19 @@
           <span class="company-currency">€m</span>
         </td>
         <td class="td-metric"><span class="metric-val">31.2x</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -1.0%</span></td>
         <td class="td-change"><span class="change-val neg">▼ -9.0%</span></td>
         <td class="td-metric"><span class="metric-val">18.8%</span></td>
+        <td class="td-change"><span class="change-val pos">▼ -8.3pp</span></td>
         <td class="td-change"><span class="change-val pos">▲ +7.4%</span></td>
         <td class="td-metric"><span class="metric-val">€1,498m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +3.0%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +23.3%</span></td>
         <td class="td-metric"><span class="metric-val">€468m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +5.9%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +50.0%</span></td>
         <td class="td-metric"><span class="metric-val">23.8%</span></td>
+        <td class="td-change"><span class="change-val pos">▲ +0.5pp</span></td>
         <td class="td-change"><span class="change-val pos">▲ +3.4pp</span></td>
         <td><span class="tier-badge tier-2">Transform</span></td>
       </tr>
@@ -494,14 +540,19 @@
           <span class="company-currency">$m</span>
         </td>
         <td class="td-metric"><span class="metric-val">38.8x</span></td>
+        <td class="td-change"><span class="change-val pos">▼ -2.8%</span></td>
         <td class="td-change"><span class="change-val neg">▼ -9.8%</span></td>
         <td class="td-metric"><span class="metric-val">10.6%</span></td>
+        <td class="td-change"><span class="change-val pos">▼ -0.8pp</span></td>
         <td class="td-change"><span class="change-val pos">▲ +8.2%</span></td>
         <td class="td-metric"><span class="metric-val">$1,250m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +3.3%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +19.0%</span></td>
         <td class="td-metric"><span class="metric-val">$920m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +2.8%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +27.8%</span></td>
         <td class="td-metric"><span class="metric-val">42.4%</span></td>
+        <td class="td-change"><span class="change-val neu">▼ -0.1pp</span></td>
         <td class="td-change"><span class="change-val pos">▲ +1.7pp</span></td>
         <td><span class="tier-badge tier-1">Optimise</span></td>
       </tr>
@@ -514,14 +565,19 @@
           <span class="company-currency">£m</span>
         </td>
         <td class="td-metric"><span class="metric-val">18.6x</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -17.7%</span></td>
         <td class="td-change"><span class="change-val neg">▼ -29.8%</span></td>
         <td class="td-metric"><span class="metric-val">91.2%</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +190.5pp</span></td>
         <td class="td-change"><span class="change-val neg">▲ +308.5%</span></td>
         <td class="td-metric"><span class="metric-val">£74.2m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +7.7%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +60.9%</span></td>
         <td class="td-metric"><span class="metric-val">£58.1m</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -6.9%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +37.0%</span></td>
         <td class="td-metric"><span class="metric-val">43.9%</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -3.6pp</span></td>
         <td class="td-change"><span class="change-val neg">▼ -4.0pp</span></td>
         <td><span class="tier-badge tier-3">At Risk</span></td>
       </tr>
@@ -534,14 +590,19 @@
           <span class="company-currency">€m</span>
         </td>
         <td class="td-metric"><span class="metric-val">36.2x</span></td>
+        <td class="td-change"><span class="change-val neg">▼ -9.9%</span></td>
         <td class="td-change"><span class="change-val neg">▼ -11.9%</span></td>
         <td class="td-metric"><span class="metric-val">12.1%</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +1.9pp</span></td>
         <td class="td-change"><span class="change-val pos">▼ -27.5%</span></td>
         <td class="td-metric"><span class="metric-val">€92.4m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +16.2%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +80.5%</span></td>
         <td class="td-metric"><span class="metric-val">€65.2m</span></td>
+        <td class="td-change"><span class="change-val neg">▲ +28.3%</span></td>
         <td class="td-change"><span class="change-val neg">▲ +112.7%</span></td>
         <td class="td-metric"><span class="metric-val">41.4%</span></td>
+        <td class="td-change"><span class="change-val pos">▲ +2.4pp</span></td>
         <td class="td-change"><span class="change-val pos">▲ +4.0pp</span></td>
         <td><span class="tier-badge tier-1">Optimise</span></td>
       </tr>
@@ -554,7 +615,7 @@
 <div class="footnote" style="padding:0 0 3rem;">
   <strong>Data Notes:</strong> All figures in reported currency (£m, $m, €m) for FY2025 or nearest equivalent reporting period. Revenue and operating profit figures are sourced from publicly available company annual reports and filings. <strong>Tech Opex, Tech Capex and Total Tech Spend figures are based on proprietary assumptions and analytical estimates derived from public disclosures. These figures are not typically disclosed as standalone line items in company reports and should be treated as approximations for analytical purposes only.</strong> M&S 2020/21 Tech Efficiency % marked n/m due to operating loss. Change columns show % movement from 2021 baseline; percentage point (pp) used where metric is already expressed as a %. Maturity tiers: <strong>Optimise</strong> = strong returns, stable investment; <strong>Transform</strong> = active build phase, improving metrics; <strong>At Risk</strong> = metrics deteriorating relative to investment.
   <br/><br/>
-  <strong>Disclaimer:</strong> The content on this page is produced by Tech Infrastructure Valuation (TIV) for informational and analytical purposes only. Nothing contained herein constitutes financial, investment, legal or tax advice, nor should it be construed as a recommendation or solicitation to buy or sell any security or financial instrument. The TIV Framework and all associated analysis represents the views and proprietary methodology of Tech Infrastructure Valuation (TIV). Past performance is not indicative of future results. Readers should conduct their own independent research and seek professional advice before making any investment decisions. Tech Infrastructure Valuation (TIV) accepts no liability for any loss or damage arising from reliance on the information contained in this dashboard.
+  <strong>Disclaimer:</strong> The content on this dashboard is produced by Tech Infrastructure Valuation (TIV) for informational purposes only. Nothing contained herein constitutes financial, investment, legal or tax advice, nor should it be construed as a recommendation or solicitation to buy or sell any security or financial instrument. Any projections, estimates, forecasts or opinions expressed are subject to change without notice and may differ from the views of others. Charts and data are provided for informational purposes only and should not be relied upon when making any investment decision. Certain information, including Tech Opex, Tech Capex and Total Tech Spend figures, is based on proprietary assumptions and estimates derived from publicly available sources. While taken from sources believed to be reliable, TIV has not independently verified all such information and makes no representations about its accuracy or appropriateness for any given situation. TIV accepts no liability for any loss or damage arising from reliance on the information contained in this dashboard. Readers should conduct their own independent research and consult professional advisers before making any investment decisions.
   <br/><br/>
   © 2026 Tech Infrastructure Valuation (TIV). All rights reserved. TIV Framework is proprietary analysis.
 </div>
